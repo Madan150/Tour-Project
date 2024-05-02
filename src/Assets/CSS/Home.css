@@ -1,0 +1,209 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* hero section */
+.Content {
+    width: 550px;
+}
+
+.Content_p span {
+    background-color: orange;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.Content_p img {
+    width: 40px;
+}
+
+#memories {
+    color: orange;
+}
+
+.DemoImages img {
+    height: 300px;
+    width: 180px;
+    border-radius: 15px;
+    vertical-align: top;
+
+
+}
+
+.DemoImages video {
+    height: 300px;
+    width: 180px;
+    border-radius: 15px;
+}
+
+/* Search icons */
+.Last_search {
+    background-color: orange;
+    text-align: center;
+
+}
+
+.SearchLocation {
+    width: 43rem !important;
+    box-shadow: 0px 0px 50px rgb(170, 169, 169);
+    /* border: 1px solid whitesmoke; */
+    padding: 20px;
+    border-radius: 12px;
+    /* border: 2px solid ; */
+}
+
+.SearchIn:focus {
+    outline: none;
+}
+
+.cont {
+    font-family: cursive;
+    background-color: orange;
+
+}
+
+.cont1 {
+    font-family: cursive;
+    color: orange;
+}
+
+.slot {
+    border-bottom: 1px solid orange;
+    border-right: 1px solid orange;
+    margin-right: 1rem;
+
+    border-radius: 8px;
+}
+
+.slot_Icon {
+    color: white;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 100%;
+    width: 40px;
+
+}
+
+
+/* Experience Section */
+.Experience_img img {
+    width: 400px;
+}
+
+.Numcount {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Numcount span {
+    background-color: orange;
+    padding: 15px;
+    border-radius: 10px 0px;
+
+
+}
+
+.YearsExp span {
+    padding: 20px;
+}
+
+.Experience {
+    width: 23rem;
+}
+/* gallery section */
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px
+}
+.gallery_img img{
+    width: 100%;
+    height: auto;
+}
+
+/* Clients  section */
+.clientImg img{
+    width: 80px;
+}
+.sub_container{
+    display: flex;
+    
+}
+
+.SubBox{
+    background-color: rgb(169, 221, 241);
+}
+/* Subscribe section */
+.SearchInput{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.SearchInput input{
+    border: none;
+    padding: 15px;   
+    width:32rem 
+}
+.SearchInput button{
+    border: none;background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+/* FOoter section */
+.DisLinks h6{
+    margin-bottom: 20px;
+}
+.FooterLink {
+    text-decoration: none;
+    color: black;
+
+}
+/* ---- */
+/* Tour page */
+
+
+.bannerText{
+    font-size: 70px;
+    padding-top: 100px;
+}
+
+/* ---- */
+/* Login page */
+.Mainform{
+    /* width: 600px !important; */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+.FormInp{
+    height: 450px;
+}
+.LoginImg{
+    box-shadow: 0px 0px 50px rgb(220, 217, 217);
+
+}
+.LoginImg img{
+    width: 450px;
+}
+.LoginForm{
+    background-color: orange;
+}
+.Userimg img{
+   width: 100px;
+   position: relative;
+   bottom: 50px;
+}
+.loginInput{
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
